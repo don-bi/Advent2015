@@ -14,6 +14,9 @@ public class code{
       if (paren.charAt(i) == ')'){
         count --;
       }
+      if (count == -1){
+        System.out.println(i + 1); // code for getting first position to basement
+      }
     }
     return count;
   }
